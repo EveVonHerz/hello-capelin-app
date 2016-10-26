@@ -1,0 +1,20 @@
+html,body {
+  height:100%;
+}
+
+h1 {
+  font-family: 'Neucha', cursive;
+  font-size:80px;
+}
+
+.v-center {
+  margin-top:20%;
+}
+
+img {
+  margin: 15px;
+}
+
+.row:nth-child(2) {
+  height: 100px;
+}
