@@ -1,0 +1,7 @@
+<ul *ngIf="lessons.length > 0">
+  <li *ngFor="let lesson of lessons">
+    <p>{{lesson.name}}</p>
+    <p>{{lesson.description}}</p>
+  </li>
+</ul>
+<button (click)="addLesson()" class="btn btn-success">Add lesson</button>
